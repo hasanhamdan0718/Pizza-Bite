@@ -1,0 +1,131 @@
+body {
+  padding-top: 70px;
+  font-family: "Fuzzy Bubbles", sans-serif;
+}
+
+nav {
+  position: fixed !important;
+  top: 0;
+  overflow: hidden;
+  width: 98%;
+  z-index: 1000;
+  background-color: white;
+}
+
+.p1 {
+  color: black;
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.p2 {
+  color: rgb(255, 0, 0);
+  font-size: 40px;
+  font-weight: bold;
+}
+
+#menu .nav-pills .nav-link.active,
+#menu .nav-pills .nav-link:active,
+#menu .nav-pills .show > .nav-link,
+#menu .nav-pills .nav-link.active:focus,
+#menu .nav-pills .nav-link.active:hover {
+  background: transparent !important;
+  background-color: transparent !important;
+  color: red !important;
+  border: none !important;
+  box-shadow: none !important;
+  outline: none !important;
+}
+
+.nav-link {
+  color: black;
+  font-size: 20px;
+  transition: color 0.3s;
+}
+
+.nav-link:hover {
+  color: red;
+}
+
+.hero-header img {
+  animation: imgRotate 50s linear infinite;
+}
+
+@keyframes imgRotate {
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.btn1 {
+  background-color: red;
+  color: white;
+  font-size: 17px;
+  border: none;
+  border-radius: 15px;
+  padding: 9px;
+  transition:
+    background-color 0.5s,
+    color 0.5s,
+    box-shadow 0.5s;
+}
+
+.btn1:hover {
+  background-color: white;
+  color: red;
+  box-shadow: 0px 10px 10px rgba(255, 0, 0, 0.7);
+}
+
+.p3 {
+  font-size: 25px;
+}
+
+.p4 {
+  font-size: 10px;
+}
+
+.link1 {
+  color: black;
+  text-decoration: none;
+  transition: color 0.5s;
+}
+
+.link1:hover {
+  color: red;
+}
+
+.input1 {
+  background-color: whitesmoke;
+  border-style: solid;
+  border-color: rgb(198, 198, 198);
+  border-radius: 15px;
+}
+
+.h2 {
+  color: black;
+  font-weight: bold;
+  font-size: 35px;
+}
+
+.card1 {
+  background-color: white;
+  color: gray;
+  border-color: lightgrey;
+  border-radius: 20px;
+  box-shadow: 0px 10px 10px rgba(255, 0, 0, 0.7);
+}
+.nav-pills .nav-item .active {
+  border-bottom: 2px solid var(--primary);
+}
+
+:root {
+  --primary: #ff1c03;
+}
+
+h6 {
+  color: red;
+}
+
+.link2 {
+  text-decoration: none;
+}
